@@ -46,6 +46,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onDestroy() {
         super.onDestroy();
         Log.e(TAG, "onDestroy method: error log");
+        Log.wtf(TAG, "this is a test - Paul Lee");
     }
 
     @Override
